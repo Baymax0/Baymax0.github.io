@@ -13,11 +13,10 @@ url: "https://baymax0.github.io"              # your host, for absolute URL
 # SNS settings
 RSS: false
 # weibo_username:     huxpro
-# zhihu_username:     huxpro
+zhihu_username:     leezw327
 github_username:    baymax0
 #twitter_username:  huxpro
 facebook_username:  baymax0
-
 
 
 # Build settings
@@ -29,11 +28,9 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
-
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
 
 
 # Markdown settings
@@ -45,7 +42,6 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
-
 # # Disqus settings
 # #disqus_username: _your_disqus_short_name_
 
@@ -53,8 +49,6 @@ kramdown:
 # duoshuo_username: huxblog
 # # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
 
 
 # # Analytics settings
@@ -65,10 +59,9 @@ kramdown:
 # ga_domain: huangxuan.me
 
 
-
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码 弹弹吉他 <br>人生以体验而不是结果为导向<br>miss xlj"
+sidebar-about-description: "弹弹吉他 写写代码<br> 无聊之时看看漫画<br>偶尔活的像个傻瓜<br>miss xlj"
 sidebar-avatar: /img/avatar-li.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
