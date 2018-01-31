@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leezw Blog</title>
+    <description>be a better man</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 31 Jan 2018 14:54:42 +0800</pubDate>
+    <lastBuildDate>Wed, 31 Jan 2018 14:54:42 +0800</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>My own website is on</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;First Blog&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;bla-bla-bla&quot;&gt;「bla bla bla」&lt;/h3&gt;
+
+&lt;p&gt;可喜可贺 可喜可贺&lt;/p&gt;
+
+&lt;p&gt;捣鼓了一天 终于可以试着写第一篇博客了，其实说是日志更好。&lt;/p&gt;
+
+&lt;p&gt;年前项目的最后一个版本总算上线了，离放假还有两个星期，除去改改小bug，有大把时光不知道怎么消磨。终于狠下心，用github-page+jekyll
+整一个自己的网站。都说是傻瓜式，可是看别人的博客讲述都是大长篇，总是提不起兴趣。搞了一天后，确实流程很傻瓜。&lt;/p&gt;
+
+&lt;p&gt;搭建的目的仅仅是想找一个既能写博客记录学到的经验，又能有个地方分享日常（估计将来都是日常）
+之后闲的时间把以前的博客搬运过来&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;what-i-do&quot;&gt;「what i do」&lt;/h3&gt;
+
+&lt;p&gt;编程的乐趣就是当看到作品在你面前运行起来的时候的成就感&lt;/p&gt;
+
+&lt;p&gt;如果你也想搭一个这样的简单的站点，只需要做简单的准备工作：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;会一丢丢markdown语法用于写文章（真不会也没关系 只要会敲回车 就算会一种语法了）&lt;/li&gt;
+  &lt;li&gt;有个github账号，创建一个github-page的项目&lt;/li&gt;
+  &lt;li&gt;寻找他人使用了Jekyll模板的源码下载后覆盖在项目中，然后更具Jekyll简单配置一些网站参数&lt;/li&gt;
+  &lt;li&gt;可以分享啦&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;maybe-used&quot;&gt;「maybe used」&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/lady_zhou/article/details/52041098&quot;&gt;使用Github+Jekyll制作自己的博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/Huxpro/huxblog-boilerplate&quot;&gt;我使用的Jekyll模板&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md&quot;&gt;模板的参数配置&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/about/index.html&quot;&gt;如有问题也联系我&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Mon, 29 Jan 2018 20:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2018/01/29/helloworld/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/29/helloworld/</guid>
+        
+        <category>生活</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

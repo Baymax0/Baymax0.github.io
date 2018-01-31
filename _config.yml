@@ -68,8 +68,8 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一个没有对象的野指针~ 写写代码，弹弹吉他，看看漫画，想想xlj"
-sidebar-avatar: /img/avatar-li.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "写写代码 弹弹吉他 <br>人生以体验而不是结果为导向<br>miss xlj"
+sidebar-avatar: /img/avatar-li.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
