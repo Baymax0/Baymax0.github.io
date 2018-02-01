@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "闲时写的小工具-接口文档转property"
-subtitle:   " \"主要时间花在找图标上了 - -\""
+title:      "接口文档转iOS-property属性"
+subtitle:   " \"闲时写的小工具\""
 date:       2018-01-31 09:54:00
 author:     "Leezw"
 header-img: "img/post-bg-2015.jpg"

@@ -9,7 +9,6 @@ tags:
     - mac工具
 ---
 
-![](http://upload-images.jianshu.io/upload_images/1640181-1ba1bcfc93e0c0cf.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 通常想分享我们自己写一些酷炫的动画，或者优美的自定义控件时，大多都会想到将代码代码上传到github上，github推出客户端后，为我们提供了对github更加便捷的使用，同时还能实现versions版本控制的功能（虽然在mac上我们大多数情况下依然还是直接用git命令行的形式比较多），这里介绍下github的mac客户端上如何管理我们的代码
 
 ## **GitHub客户端下载**
