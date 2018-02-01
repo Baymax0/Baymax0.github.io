@@ -4,7 +4,7 @@ SEOTitle: 李志伟的博客 | Leezw Blog
 header-img: img/home-bg.jpg
 email: jzdd327@163.com
 description: "be a better man"
-keyword: "李志伟,iOS,Geek"
+keyword: "李志伟, leezw, leezw Blog, Baymax0, iOS, 李志伟的博客, 李志伟的个人网站,"
 url: "https://baymax0.github.io"              # your host, for absolute URL
 # baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -72,22 +72,22 @@ featured-condition-size: 1              # 使用该标签的文章数大于上�
 
 
 
-# # Friends 外链
-# friends: [
-#     {
-#         title: "Hux Blog",
-#         href: "ttps://baymax0.github.io"
-#     },{
-#         title: "Foo",
-#         href: "#"
-#     },{
-#         title: "Bar",
-#         href: "#"
-#     },{
-#         title: "Example Friends",
-#         href: "#"
-#     },{
-#         title: "It helps SEO",
-#         href: "#"
-#     }
-# ]
+# Friends 外链
+friends: [
+    {
+        title: "Hux Blog",
+        href: "ttps://baymax0.github.io"
+    },{
+        title: "Foo",
+        href: "#"
+    },{
+        title: "Bar",
+        href: "#"
+    },{
+        title: "Example Friends",
+        href: "#"
+    },{
+        title: "It helps SEO",
+        href: "#"
+    }
+]

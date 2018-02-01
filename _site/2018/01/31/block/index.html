@@ -10,9 +10,9 @@
     <meta name="keyword"  content="李志伟, leezw, leezw Blog, Baymax0, iOS, 李志伟的博客, 李志伟的个人网站,">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>My own website is on - 李志伟的博客 | Leezw Blog</title>
+    <title>Block是如何实现的，以及block中参数传递 - 李志伟的博客 | Leezw Blog</title>
 
-    <link rel="canonical" href="http://localhost:4000/2018/01/29/helloworld/">
+    <link rel="canonical" href="http://localhost:4000/2018/01/31/block/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -140,15 +140,15 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#生活" title="生活">生活</a>
+                        <a class="tag" href="/tags/#iOS" title="iOS">iOS</a>
                         
                     </div>
-                    <h1>My own website is on</h1>
+                    <h1>Block是如何实现的，以及block中参数传递</h1>
                     
                     
-                    <h2 class="subheading"> "似乎 好像 成功了"</h2>
+                    <h2 class="subheading"> "block的原理"</h2>
                     
-                    <span class="meta">Posted by Leezw on January 29, 2018</span>
+                    <span class="meta">Posted by Leezw on January 31, 2018</span>
                 </div>
             </div>
         </div>
@@ -166,42 +166,240 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<blockquote>
-  <p>First Blog</p>
-</blockquote>
+				<p>先看下面的一段代码，判断输出结果：</p>
 
-<h3 id="bla-bla-bla">「bla bla bla」</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>int a = 0;  
+void (^block)(void) = ^{
+    printf("a = %i\n",a);
+};
+a=10;
+block();
+</code></pre>
+</div>
 
-<p>可喜可贺 可喜可贺</p>
+<p>经过运行之后我们发现，输出结果为“a = 0”,而不是”a = 10”。
+如果感觉答案是“a = 10”的同学看下面的代码或许会有所感觉，明显会报错，提示“Use of undeclared identifier ‘a’ ”。</p>
 
-<p>捣鼓了一天 终于可以试着写第一篇博客了，其实说是日志更好。</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>void (^block)(void) = ^(){printf("a = %i\n",a);};
+int a=10;
+block();
+</code></pre>
+</div>
 
-<p>年前项目的最后一个版本总算上线了，离放假还有两个星期，除去改改小bug，有大把时光不知道怎么消磨。终于狠下心，用github-page+jekyll
-整一个自己的网站。都说是傻瓜式，可是看别人的博客讲述都是大长篇，总是提不起兴趣。搞了一天后，确实流程很傻瓜。</p>
+<p>我们发现block块在初始化的时候就要获取局部变量（局部变量）a的值，之后a的值的变化并不会影响block的运行结果。</p>
 
-<p>搭建的目的仅仅是想找一个既能写博客记录学到的经验，又能有个地方分享日常（估计将来都是日常）
-之后闲的时间把以前的博客搬运过来</p>
+<p>*所说的局部变量为block外的局部变量，而非block内定义的。</p>
 
-<hr />
-<h3 id="what-i-do">「what i do」</h3>
+<h2 id="block结构">Block结构：</h2>
 
-<p>编程的乐趣就是当看到作品在你面前运行起来的时候的成就感</p>
+<p>到底block是如何实现的呢？下面是一个最简单的block的定义与使用</p>
 
-<p>如果你也想搭一个这样的简单的站点，只需要做简单的准备工作：</p>
-<ol>
-  <li>会一丢丢markdown语法用于写文章（真不会也没关系 只要会敲回车 就算会一种语法了）</li>
-  <li>有个github账号，创建一个github-page的项目</li>
-  <li>寻找他人使用了Jekyll模板的源码下载后覆盖在项目中，然后更具Jekyll简单配置一些网站参数</li>
-  <li>可以分享啦</li>
-</ol>
+<div class="highlighter-rouge"><pre class="highlight"><code>int main(int argc, const char * argv[]) {
+    void (^block)(void) = ^{printf("This is a block！");};
+    block();
+}
+</code></pre>
+</div>
 
-<hr />
-<h3 id="maybe-used">「maybe used」</h3>
+<p>通过终端，我们找到main.m文件所在路径，然后输入</p>
 
-<p><a href="http://blog.csdn.net/lady_zhou/article/details/52041098">使用Github+Jekyll制作自己的博客</a><br />
-<a href="https://github.com/Huxpro/huxblog-boilerplate">我使用的Jekyll模板</a><br />
-<a href="https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md">模板的参数配置</a><br />
-<a href="/about/index.html">如有问题也联系我</a></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>clang -rewrite-objc main.m
+</code></pre>
+</div>
+
+<p>（通过clang编译器，我们可以获得在编译过程中生产的中间代码，看block时如何实现的）<br />
+在当前目录下找到main.cpp文件，打开后能看到block生成了很多结构体如下：（简化后的代码,可查找关键字），</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>struct __block_impl {
+    void *isa;//block存放位置，取值为_NSConcretGlobalBlock(全局区)、_NSConcretStackBlock(栈区)、_NSConcretMallocBlock(堆区)
+    int Flags;//用于按bit位表示一些block的附加信息，block copy的实现代码可以看到对该变量的使用。
+    int Reserved;//保留变量。
+    void *FuncPtr;
+};
+
+static struct __main_block_desc_0 {
+    size_t reserved;
+    size_t Block_size;
+} __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0)};
+
+static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
+    printf("This is a block！");
+}
+
+struct __main_block_impl_0 {
+    struct __block_impl impl;
+    struct __main_block_desc_0* Desc;
+    __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int flags=0) { //构造函数
+        impl.isa = &amp;_NSConcreteStackBlock;
+        impl.Flags = flags;
+        impl.FuncPtr = fp;
+        Desc = desc;
+    }
+};
+
+int main(int argc, const char * argv[]) {
+    void (*block)(void) = (void (*)())&amp;__main_block_impl_0((void *)__main_block_func_0, &amp;__main_block_desc_0_DATA);
+    ((void (*)(__block_impl *))((__block_impl *)block)-&gt;FuncPtr)((__block_impl *)block);
+}
+</code></pre>
+</div>
+
+<p>看上去很多，其实没那么难理解，一个一个来分别介绍他们的意思：</p>
+<ul>
+  <li>__block_impl：block的一些基础属性，像是block的基类。</li>
+  <li>__main_block_desc_0：block的描述，他有一个实例__main_block_desc_0_DATA</li>
+  <li>__main_block_impl_0：block变量（包含上面两个结构体对象）。</li>
+  <li>__main_block_func_0：block的匿名函数。存放block内的语句。</li>
+</ul>
+
+<p>命名规则：“main”为block所在函数名，如果定义在函数外为block的名字，末尾的“0”表示为当前函数中第“0”个block。</p>
+
+<p>在末尾的main函数中，我们可以看到block的初始化是调用__main_block_impl_0的构造函数，所以block的内容简化后为：</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>struct __main_block_impl_0 {
+    void *isa;
+    int Flags;
+    int Reserved;
+    void *FuncPtr;
+    size_t reserved;
+    size_t Block_size;
+    __main_block_impl_0(#block匿名函数的指针#,#__main_block_desc_0的实例指针#, int flags=0);
+};
+</code></pre>
+</div>
+
+<p>由此可见：block其实就是一个Object-c对象。</p>
+
+<h2 id="局部变量">局部变量：</h2>
+
+<p>通过clang -rewrite-objc 指令编译本文开头的那段代码我们找出与之前的编译结果的不同：</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>struct __main_block_impl_0 {
+    struct __block_impl impl;       
+    struct __main_block_desc_0* Desc;
+    int a; 
+    __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int _a, int flags=0) : a(_a) {
+        impl.isa = &amp;_NSConcreteStackBlock;
+        impl.Flags = flags;
+        impl.FuncPtr = fp;
+        Desc = desc;
+    }
+};
+//block的匿名函数
+static void __main_block_func_0(struct __main_block_impl_0 *__cself){
+    int a = __cself-&gt;a; // bound by copy
+    printf("a = %i\n",a);
+}
+//主方法
+int main(int argc, const char * argv[]) {
+    int a = 0;
+    //block初始化
+    void (*block)(void) = (void (*)())&amp;__main_block_impl_0((void *)__main_block_func_0, &amp;__main_block_desc_0_DATA, a);
+    a=10;
+    //block调用
+    ((void (*)(__block_impl *))((__block_impl *)block)-&gt;FuncPtr)((__block_impl *)block);
+}
+</code></pre>
+</div>
+
+<p>比较后发现：</p>
+<ul>
+  <li>__main_block_impl_0的属性中多了一个变量a；</li>
+  <li>__main_block_impl_0初始化方法的参数中也有接收变量对a赋值的方法。</li>
+  <li>__main_block_func_0而在匿名函数中多了一行“int a = __cself-&gt;a;”</li>
+</ul>
+
+<p>局部变量的传递的实现方法，当block在初始化的时候，通过构造函数把a的值通过值传递传入block，而在__main_block_func_0方法中，通过int a创建变量来接收。最后在匿名函数中使用时又创建临时变量类获得a。所以在block执行时，输出的a为block初始化时获得的a的值，使用的是a的副本。</p>
+
+<p>这也能说明为什么，block中不让修该局部变量。首先在block中修改局部变量的值本是没问题的，但是修改的只是和局部变量名字一样的副本变量的值，这并不会影响局部变量本来的值。为了不让开发者迷惑，所以就不让赋值。</p>
+
+<p>那么如果获取的局部变量是OC对象呢</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>int main(int argc, const char * argv[]) {
+    NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:0];
+    void (^block)(void) = ^{
+        [array addObject:@"block"];
+    };
+    block();
+}
+</code></pre>
+</div>
+
+<p>这么写是能运行的，因为array是一个指针，我们并没有改变指针的值。</p>
+
+<h2 id="static修饰符与全局变量">static修饰符与全局变量</h2>
+
+<p>全局变量或静态变量都在全局区，在内存中的地址是固定的，Block在初始化时读取的是该变量值地址，当调用的时候是直接从其所在内存读出，获取到的是最新值，而不是在定义时copy的常量。而且可以在block中修改他们的值。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>int a=0;
+int main(int argc, const char * argv[]) {
+    static int b=0;
+    void (^block)(void) = ^{
+        NSLog(@"a=%i,b=%i",++a,++b);
+    };
+    a = 10;
+    b = 10;
+    block();
+}
+</code></pre>
+</div>
+
+<p>运行的结果为（不是“a=1,b=1”）：    a=11,b=11</p>
+
+<h2 id="__block修饰符">__block修饰符</h2>
+
+<p>之前了解了block中用到局部变量时，使用的是局部变量的副本，当我们要想局部变量能在block中进行修改时，我们通常会在局部变量前写上__block修饰符，那么它又是如何实现的呢。对如下代码进行编译：</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>int main(int argc, const char * argv[]) {
+    __block int a=0;
+    void (^block)(void) = ^{printf("a = %i",++a);};
+    block();
+}
+</code></pre>
+</div>
+
+<p>编译后的代码简化为（只列出有变化的部分）
+    struct __Block_byref_a_0 {
+        void *__isa;
+        __Block_byref_a_0 *__forwarding;
+        int __flags;
+        int __size;
+        int a;
+    };</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>struct __main_block_impl_0 {
+    struct __block_impl impl;
+    struct __main_block_desc_0* Desc;
+    __Block_byref_a_0 *a; // by ref
+    __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, __Block_byref_a_0 *_a, int flags=0) : a(_a-&gt;__forwarding) {
+        impl.isa = &amp;_NSConcreteStackBlock;
+        impl.Flags = flags;
+        impl.FuncPtr = fp;
+        Desc = desc;
+    }
+};
+static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
+    __Block_byref_a_0 *a = __cself-&gt;a; // bound by ref
+    printf("a = %i",++(a-&gt;__forwarding-&gt;a));}
+
+static void __main_block_copy_0(struct __main_block_impl_0*dst, struct __main_block_impl_0*src) {_Block_object_assign((void*)&amp;dst-&gt;a, (void*)src-&gt;a, 8/*BLOCK_FIELD_IS_BYREF*/);}
+
+static void __main_block_dispose_0(struct __main_block_impl_0*src) {_Block_object_dispose((void*)src-&gt;a, 8/*BLOCK_FIELD_IS_BYREF*/);}
+
+int main(int argc, const char * argv[]) {
+    __attribute__((__blocks__(byref))) __Block_byref_a_0 a = {(void*)0,(__Block_byref_a_0 *)&amp;a, 0, sizeof(__Block_byref_a_0), 0};
+    void (*block)(void) = (void (*)())&amp;__main_block_impl_0((void *)__main_block_func_0, &amp;__main_block_desc_0_DATA, (__Block_byref_a_0 *)&amp;a, 570425344);
+    ((void (*)(__block_impl *))((__block_impl *)block)-&gt;FuncPtr)((__block_impl *)block);
+}
+</code></pre>
+</div>
+
+<p>我们发现多了很多东西，看上去很乱，我们一个一个来，首先我们看主函数main里第一行，由__block int a=0;编译而来。当我们为局部变量加上__block修饰符时，编译器会自动创建一个关于这个变量的结构体__Block_byref_a_0，而变量的初始化，变为结构体的初始化，将局部变量对象化了。
+在关于变量a的结构体__Block_byref_a_0中，有“int a；”用于存放变量值，有“__Block_byref_a_0 *__forwarding;”一个关于自己的指针，以及其他一些属性。而block初始化时，将对象化后的a作为了构造函数的参数。由之前分析我们已经得知如果block获取的局部变量是OC对象，是可以对它进行操作的。</p>
+
+<h2 id="为什么不直接创建变量a的指针">为什么不直接创建变量a的指针</h2>
+
+<p>到这里应该理解了__block的实际工作，但是肯定会有人疑惑，说到底，将a对象化的目的只是因为对象传递得时候传的是指针，那么为什么不直接创建一个指针指向变量a，而要将他对象化。说到这里就要先说说内存中栈和堆，函数内局部变量的初始化是分配到栈中，而对象的初始化是分配在堆中（ios中alloc都是存放在堆中），变量a是分配在栈中，如果创建一栈变量的指针很危险，栈相对于堆而言是编译器自动释放，当函数结束时，栈就会被释放，而block对象通常分配在堆上，还没有被释放，而这时候原来的指针就会变成野指针，对block而言是不安全的，</p>
 
 <hr />
 
@@ -212,9 +410,13 @@
 
                 <ul class="pager">
                     
+                    <li class="previous">
+                        <a href="/2018/01/31/uiwebview/" data-toggle="tooltip" data-placement="top" title="UIWebView播放视频问题">&larr; Previous Post</a>
+                    </li>
+                    
                     
                     <li class="next">
-                        <a href="/2018/01/31/githubdesktop/" data-toggle="tooltip" data-placement="top" title="mac上GitHub Desktop客户端的使用">Next Post &rarr;</a>
+                        <a href="/2018/01/31/transitioningAnimation/" data-toggle="tooltip" data-placement="top" title="自定义ViewController的跳转动画">Next Post &rarr;</a>
                     </li>
                     
                 </ul>

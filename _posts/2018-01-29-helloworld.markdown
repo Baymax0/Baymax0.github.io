@@ -3,7 +3,7 @@ layout:     post
 title:      "My own website is on"
 subtitle:   " \"似乎 好像 成功了\""
 date:       2018-01-29 12:00:00
-author:     "Hux"
+author:     "Leezw"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - 生活
