@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "jeklly本地服务器搭建及使用"
+subtitle:   "方便的更新github-page上的博客"
+date:       2018-02-22 14:29:00
+author:     "Leezw"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 前端
+---
+
+> 
+所有步骤建立在已经有一个github-page网站的基础上<br>
+jeklly支持实时编译，更便捷的写文章查看效果，或修改博客
+
+
+
+
+## **GitHub Desktop的使用**
+
+
+
+---
+
+
