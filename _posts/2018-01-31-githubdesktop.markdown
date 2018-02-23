@@ -2,7 +2,7 @@
 layout:     post
 title:      "mac上GitHub Desktop客户端的使用"
 subtitle:   " \"试试使用界面友好的git桌面工具\""
-date:       2018-01-31 09:29:00
+date:       2018-01-30 09:29:00
 author:     "Leezw"
 header-img: "img/post-bg-2015.jpg"
 tags:
