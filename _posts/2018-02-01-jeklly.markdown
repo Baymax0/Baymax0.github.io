@@ -11,12 +11,27 @@ tags:
 
 > 
 所有步骤建立在已经有一个github-page网站的基础上<br>
-jeklly支持实时编译，更便捷的写文章查看效果，或修改博客
+jeklly支持实时编译，更便捷的写文章查看效果，或修改博客功能
 
 
+##### **1.安装Ruby**
+mac自带ruby，windows则下载 [ rubyinstaller](https://rubyinstaller.org/) 并运行，安装后再命令行输入
+
+	ruby -- version
+
+查看是否安装成功，如果无法查看需重启或手动添加bin目录到环境变量
 
 
-## **GitHub Desktop的使用**
+##### **2.安装bundler**
+	gem install bundler
+
+
+##### **3.安装Jekyll**
+	gem install jekyll 
+
+出现Gem::RemoteFetcher::FetchError) 则可能需要代理服务器 在本地仓库下使用touch Gemfile创建一个Gemfile,添加文本` ```source 'https://rubygems.org' gem 'github-pages' ``` `
+	
+
 
 
 
