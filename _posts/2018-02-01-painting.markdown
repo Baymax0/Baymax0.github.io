@@ -1,0 +1,129 @@
+---
+layout:     post
+title:      "我的 乱涂乱画 ✐"
+subtitle:   "会画画的程序员 找到软妹子做老婆的能力 是不会画画的20.74倍以上--我家隔壁的胖大婶"
+date:       2018-02-22 14:29:00
+author:     "Leezw"
+header-img: "img/painting-bg.jpg"
+tags:
+- 生活
+---
+<style type="text/css">
+	.bm_outBox{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.bm_box{
+		border:1px solid #ddd;
+		border-radius: 4px;
+		margin-top: 10px;
+	}
+	.bm_img{
+		margin:0em auto 0em auto;
+
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+</style>
+
+<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<!-- <script src="http://jq22.qiniudn.com/masonry-docs.min.js"></script> -->
+
+<link rel="stylesheet" href="/css/zoomify.min.css">
+<script src="/js/zoomify.min.js"></script>
+
+
+### 最近
+<div>
+	<div class="col-xs-12 col-md-12 col-sm-12">
+			<img class="bm_img" src="/img/post-bg-2015.jpg" alt="">
+	</div>
+
+</div>
+
+
+
+---
+
+### 2014
+
+<div id="masonry" class="container-fluid example">
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2014/2-16-xingshi.jpeg">
+		</div>
+	</div>
+
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2014/2-16-shidizai.jpeg">
+		</div>
+	</div>
+
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2014/6-7-lishanweilai.jpeg">
+		</div>
+	</div>
+</div>
+
+---
+
+### 2013
+
+<div id="masonry" class="container-fluid example">
+
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2013/1-21-wolverine.jpeg">
+		</div>
+	</div>
+
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2013/2-5-superman.jpeg">
+		</div>
+	</div>
+
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2013/5-30-guixianren.jpeg">
+		</div>
+	</div>
+
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2013/7-17-suolong.jpeg">
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+	jQuery.noConflict();
+	jQuery( document ).ready(function( $ ) {
+
+		// var $container = $('#masonry');
+		// $container.imagesLoaded( function() {
+		// 	$container.masonry({
+		// 		itemSelector: '.box',
+		// 		columnWidth: 0,
+		// 		isAnimated: true,
+		// 	});
+		// });
+
+		$('.example img').zoomify();
+	});
+</script>
+
+---
+
+

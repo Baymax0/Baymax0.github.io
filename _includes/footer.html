@@ -36,6 +36,7 @@
                         </a>
                     </li>
                     {% endif %}
+                    
                     {% if site.weibo_username %}
                     <li>
                         <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
@@ -68,6 +69,20 @@
                         </a>
                     </li>
                     {% endif %}
+
+
+                    {% if site.email %}
+                    <li>
+                        <a target="_blank" href="mailto:{{ site.email }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+
+
                 </ul>
                 <p class="copyright text-muted">
                     Theme by <a href="https://github.com/Huxpro/huxpro.github.io">Hux</a> | Copyright &copy; {{ site.time | date: '%Y' }} <a href="/about/index.html">Leezw</a>

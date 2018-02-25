@@ -1,0 +1,50 @@
+---
+layout:     post
+title:      "我的 跑调专辑 ♬"
+subtitle:   "会吉他的程序员 找到软妹子做老婆的能力 是不会吉他的20.73倍以上--我家楼上的长胡子大爷"
+date:       2018-02-22 14:29:00
+author:     "Leezw"
+header-img: "img/music-bg.jpg"
+tags:
+- 生活
+---
+
+<!-- 
+	倒序记录
+	添加记录后修改页首 date日期
+ -->
+
+> 
+成功在网易云上申请了一个电台，美其名曰：我也是个主播了，哈哈哈。<br>
+
+
+<div>
+	<span style="font-size: 18px;  font-weight:bold;">基本步骤：</span><br>
+	<span>
+	+ solo（可有可无）<br>
+	+ 弹唱 <br>
+	+ 电脑拖拽合成<br>
+	+ 后期修掉乐器杂音  =>输出 <br>
+	</span>
+</div>
+
+<div>
+	<span style="font-size: 18px;  font-weight:bold;">使用工具：</span><br>
+	<span>
+	+ 弦又生锈了的吉他<br>
+	+ 琴码快飞了的尤克里里<br>
+	+ 吹不出压音的blues口琴<br>
+	+ GarageBand(mac上的合成软件)<br>
+	+ 能听出自己唱跑掉 但 无能为力的我🙄<br>
+	</span>
+</div>
+
+---
+<div>
+	<span style="font-size: 24px;  font-weight:bold;">500 miles</span>
+	<span>--2018.02.04(吉他)</span><br>
+	<span>第一次录歌，感觉前奏还好好的，我一张嘴，整段垮掉，(╯‵□′)╯︵┻━┻</span><br>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=3&amp;id=1368168300&amp;auto=0&amp;height=32">
+	</iframe>
+</div>
+

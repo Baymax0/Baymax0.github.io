@@ -1,6 +1,6 @@
 # Site settings
 title: Leezw Blog
-SEOTitle: 李志伟的博客 | Leezw Blog
+SEOTitle: Leezw Blog
 header-img: img/home-bg.jpg
 email: jzdd327@163.com
 description: "be a better man"
@@ -17,6 +17,7 @@ zhihu_username:     leezw327
 github_username:    baymax0
 #twitter_username:  huxpro
 facebook_username:  baymax0
+
 
 
 # Build settings
@@ -76,18 +77,23 @@ featured-condition-size: 1              # 使用该标签的文章数大于上�
 friends: [
     {
         title: "Hux Blog",
-        href: "ttps://baymax0.github.io"
+        href: "http://huangxuan.me/"
     },{
-        title: "Foo",
-        href: "#"
+        title: "onevcat王巍",
+        href: "https://onevcat.com/"
     },{
-        title: "Bar",
-        href: "#"
+        title: "xcodev‘blog",
+        href: "http://blog.xcodev.com/"
     },{
-        title: "Example Friends",
-        href: "#"
+        title: "唐巧的博客",
+        href: "http://blog.devtang.com/"
     },{
-        title: "It helps SEO",
-        href: "#"
+        title: "ibireme",
+        href: "https://blog.ibireme.com"
+    },{
+        title: "谭灏的博客",
+        href: "http://www.tanhao.me"
     }
+
+    
 ]
