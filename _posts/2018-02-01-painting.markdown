@@ -26,6 +26,14 @@ tags:
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
+	.bm_toplab{
+		position: absolute;
+		top: 10px;
+		left: 0;
+		right: 0;
+		height: 25px;
+		text-align:center;
+	}
 
 </style>
 
@@ -53,18 +61,21 @@ tags:
 
 <div id="masonry" class="container-fluid example">
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">圣斗士星矢</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2014/2-16-xingshi.jpeg">
 		</div>
 	</div>
 
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">星际宝贝</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2014/2-16-shidizai.jpeg">
 		</div>
 	</div>
 
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">栗山未来</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2014/6-7-lishanweilai.jpeg">
 		</div>
@@ -78,24 +89,28 @@ tags:
 <div id="masonry" class="container-fluid example">
 
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">金刚狼</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2013/1-21-wolverine.jpeg">
 		</div>
 	</div>
 
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">superman</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2013/2-5-superman.jpeg">
 		</div>
 	</div>
 
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">龟仙人-《龙珠》</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2013/5-30-guixianren.jpeg">
 		</div>
 	</div>
 
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">索隆-《海贼王》</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2013/7-17-suolong.jpeg">
 		</div>
@@ -105,7 +120,7 @@ tags:
 
 
 
-
+http://127.0.0.1:4000
 
 <script type="text/javascript">
 	jQuery.noConflict();
