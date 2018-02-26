@@ -22,7 +22,7 @@ tags:
 	<span style="font-size: 18px;  font-weight:bold;">基本步骤：</span><br>
 	<span>
 	+ solo（可有可无）<br>
-	+ 弹唱 <br>
+	+ 弹|唱 <br>
 	+ 电脑拖拽合成<br>
 	+ 后期修掉乐器杂音  =>输出 <br>
 	</span>
@@ -34,7 +34,7 @@ tags:
 	+ 弦又生锈了的吉他<br>
 	+ 琴码快飞了的尤克里里<br>
 	+ 吹不出压音的blues口琴<br>
-	+ GarageBand(mac上的合成软件)<br>
+	+ GarageBand（音频合成工具）<br>
 	+ 能听出自己唱跑掉 但 无能为力的我🙄<br>
 	</span>
 </div>

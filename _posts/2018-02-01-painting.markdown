@@ -68,13 +68,12 @@ tags:
 ### balabala
 图都是从空间里淘回来的，一摆发现真的好久没认真画画东西了.... 
 
-### 最近
+<!-- ### 最近
 <div>
 	<div class="col-xs-12 col-md-12 col-sm-12">
-		<!-- <img class="bm_img" src="/img/post-bg-2015.jpg" alt=""> -->
-
+		<img class="bm_img" src="/img/post-bg-2015.jpg" alt="">
 	</div>
-</div>
+</div> -->
 
 ### before
 <div id="masonry">
