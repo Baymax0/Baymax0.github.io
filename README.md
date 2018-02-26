@@ -1,5 +1,5 @@
-# HuxBlog Boilerplate
+# 我的个人网站
 
 
-#### [View MyBlog &rarr;](https://baymax0.github.io)
+#### [leeze.me](https://baymax0.github.io)
 

@@ -39,7 +39,7 @@ tags:
 
 <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 <script src="/js/jquery.min.js"></script>
-<!-- <script src="http://jq22.qiniudn.com/masonry-docs.min.js"></script> -->
+<script src="http://jq22.qiniudn.com/masonry-docs.min.js"></script>
 
 <link rel="stylesheet" href="/css/zoomify.min.css">
 <script src="/js/zoomify.min.js"></script>
@@ -50,7 +50,6 @@ tags:
 	<div class="col-xs-12 col-md-12 col-sm-12">
 			<img class="bm_img" src="/img/post-bg-2015.jpg" alt="">
 	</div>
-
 </div>
 
 
@@ -59,7 +58,7 @@ tags:
 
 ### 2014
 
-<div id="masonry" class="container-fluid example">
+<div id="masonry2014" class="container-fluid example">
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
 		<span class="bm_toplab">圣斗士星矢</span>
 		<div class="bm_box">
@@ -73,7 +72,6 @@ tags:
 			<img class="bm_img" src="/img/painting/2014/2-16-shidizai.jpeg">
 		</div>
 	</div>
-
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
 		<span class="bm_toplab">栗山未来</span>
 		<div class="bm_box">
@@ -86,50 +84,253 @@ tags:
 
 ### 2013
 
-<div id="masonry" class="container-fluid example">
-
+<div id="masonry2013" class="container-fluid example">
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
 		<span class="bm_toplab">金刚狼</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2013/1-21-wolverine.jpeg">
 		</div>
 	</div>
-
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
 		<span class="bm_toplab">superman</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2013/2-5-superman.jpeg">
 		</div>
 	</div>
-
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
 		<span class="bm_toplab">龟仙人-《龙珠》</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2013/5-30-guixianren.jpeg">
 		</div>
 	</div>
-
 	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
 		<span class="bm_toplab">索隆-《海贼王》</span>
 		<div class="bm_box">
 			<img class="bm_img" src="/img/painting/2013/7-17-suolong.jpeg">
 		</div>
 	</div>
-
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">猫咪</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2013/6-10-maomi.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">龙猫场景</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2013/1-1-longmao.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">发呆</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2013/2-16-fadai.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">外白渡桥-上海</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2013/5-31-waibaiduqiao.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">仓鼠</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2013/6-10-songshu.jpeg">
+		</div>
+	</div>
+	
 </div>
 
+---
 
+### 2012
 
-http://127.0.0.1:4000
+<div id="masonry2012" class="container-fluid example">
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">海象人-《魔兽》</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2012/11-29-haibao.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">猫咪</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2012/1-17-maomi.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">天空之城</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2012/5-1-tiankongzhichen.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">山丘之王-《魔兽》</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2012/11-29-shanqiu.jpeg">
+		</div>
+	</div>
+
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">萌妹砸</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2012/6-24-feixingyuan.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">机械迷城</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2012/6-24-jixiemichen.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">萌妹砸</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2012/6-24-meizi.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">小学生</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2012/6-24-xiaozhengtai.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">萌妹砸</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2012/8-21-mengmeizi.jpeg">
+		</div>
+	</div>
+
+	
+</div>
+
+---
+
+### 2011
+
+<div id="masonry2011" class="container-fluid example">
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">刀刀</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2011/7-25-daodao.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">火影</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2011/7-25-huoying.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">钢之炼金术师</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2011/7-25-lianjin.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">死神</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2011/7-29-sishen.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">萌妹砸</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2011/8-3-meizi.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">萌妹砸</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2011/8-25-meizi.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">汉子</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2011/8-25-nanhai.jpeg">
+		</div>
+	</div>
+</div>
+
+---
+
+### 2010
+
+<div id="masonry2010" class="container-fluid example">
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">~</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2010/10-7-xiawu.jpeg">
+		</div>
+	</div>
+
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">游乐园</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2010/12-13-park.jpeg">
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">柯南</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2010/12-20-kenan.jpeg">
+		</div>
+	</div>	
+	<div class="col-xs-4 col-md-3 col-sm-3 bm_outBox">
+		<span class="bm_toplab">panda</span>
+		<div class="bm_box">
+			<img class="bm_img" src="/img/painting/2010/12-20-panda.jpeg">
+		</div>
+	</div>	
+</div>
 
 <script type="text/javascript">
 	jQuery.noConflict();
 	jQuery( document ).ready(function( $ ) {
 
-		// var $container = $('#masonry');
+		// var $container = $('#masonry2014');
 		// $container.imagesLoaded( function() {
 		// 	$container.masonry({
-		// 		itemSelector: '.box',
+		// 		itemSelector: '.bm_outBox',
+		// 		columnWidth: 0,
+		// 		isAnimated: true,
+		// 	});
+		// });
+
+		// var $container = $('#masonry2013');
+		// $container.imagesLoaded( function() {
+		// 	$container.masonry({
+		// 		itemSelector: '.bm_outBox',
+		// 		columnWidth: 0,
+		// 		isAnimated: true,
+		// 	});
+		// });
+
+		// var $container = $('#masonry2012');
+		// $container.imagesLoaded( function() {
+		// 	$container.masonry({
+		// 		itemSelector: '.bm_outBox',
+		// 		columnWidth: 0,
+		// 		isAnimated: true,
+		// 	});
+		// });
+
+		// var $container = $('#masonry2011');
+		// $container.imagesLoaded( function() {
+		// 	$container.masonry({
+		// 		itemSelector: '.bm_outBox',
+		// 		columnWidth: 0,
+		// 		isAnimated: true,
+		// 	});
+		// });
+
+		// var $container = $('#masonry2010');
+		// $container.imagesLoaded( function() {
+		// 	$container.masonry({
+		// 		itemSelector: '.bm_outBox',
 		// 		columnWidth: 0,
 		// 		isAnimated: true,
 		// 	});
