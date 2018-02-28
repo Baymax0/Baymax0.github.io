@@ -2,7 +2,7 @@
 layout:     post
 title:      "我的 跑调专辑 ♬"
 subtitle:   "会吉他的程序员 找到软妹子做老婆的能力 是不会吉他的20.73倍以上--我家楼上的长胡子大爷"
-date:       2018-02-22 14:29:00
+date:       2018-02-28 14:29:00
 author:     "Leezw"
 header-img: "img/music-bg.jpg"
 tags:
@@ -19,17 +19,16 @@ tags:
 
 
 <div>
-	<span style="font-size: 18px;  font-weight:bold;">基本步骤：</span><br>
+	<span style="font-size: 18px;  font-weight:bold;">工序：</span><br>
 	<span>
 	+ solo（可有可无）<br>
 	+ 弹|唱 <br>
-	+ 电脑拖拽合成<br>
-	+ 后期修掉乐器杂音  =>输出 <br>
+	+ 电脑拖拽合成-修修修 =>输出 <br>
 	</span>
 </div>
 
 <div>
-	<span style="font-size: 18px;  font-weight:bold;">使用工具：</span><br>
+	<span style="font-size: 18px;  font-weight:bold;">工具：</span><br>
 	<span>
 	+ 弦又生锈了的吉他<br>
 	+ 琴码快飞了的尤克里里<br>
@@ -41,9 +40,19 @@ tags:
 
 ---
 <div>
+	<span style="font-size: 24px;  font-weight:bold;">lost memory</span>
+	<span>--2018.02.28(口琴)</span><br>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1368186956&amp;auto=0&amp;height=66">
+	</iframe>
+	<br>
+	<span>海上钢琴师</span><br>
+</div>
+
+---
+<div>
 	<span style="font-size: 24px;  font-weight:bold;">明天情人节</span>
 	<span>--2018.02.13(吉他)</span><br>
-	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=3&amp;id=1368180666&amp;auto=0&amp;height=32">
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1368180666&amp;auto=0&amp;height=66">
 	</iframe>
 	<br>
 	<span>明天情人节(过节)  </span><span>  是否都有约(有约)</span><br>
@@ -56,7 +65,7 @@ tags:
 <div>
 	<span style="font-size: 24px;  font-weight:bold;">我在十点差三分的时候想</span>
 	<span>--2018.02.12(吉他)</span><br>
-	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=3&amp;id=1368185479&amp;auto=0&amp;height=32">
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1368185479&amp;auto=0&amp;height=66">
 	</iframe>
 	<br>
 	<span>21:57</span><br>
@@ -66,7 +75,7 @@ tags:
 <div>
 	<span style="font-size: 24px;  font-weight:bold;">500 miles</span>
 	<span>--2018.02.04(吉他)</span><br>
-	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=3&amp;id=1368168300&amp;auto=0&amp;height=32">
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1368168300&amp;auto=0&amp;height=66">
 	</iframe><br>
 	<span>第一次录歌，感觉前奏还好好的，我一张嘴，整段垮掉，(╯‵□′)╯︵┻━┻</span><br>
 </div>
