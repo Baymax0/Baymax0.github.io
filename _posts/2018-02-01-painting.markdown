@@ -27,11 +27,6 @@ tags:
 		-moz-box-shadow:rgba(0, 0, 0, 0.3) 0px 1px 3px 0px;
 		-webkit-box-shadow:rgba(0, 0, 0, 0.3) 0px 1px 3px 0px;
 	}
-	/*图片*/
-	.bm_img{
-		
-	}
-
 
 	.bm_img_desc{
 		color: #444;
@@ -68,12 +63,13 @@ tags:
 ### balabala
 图都是从空间里淘回来的，一摆发现真的好久没认真画画东西了.... 
 
-<!-- ### 最近
+### 最近
+
 <div>
 	<div class="col-xs-12 col-md-12 col-sm-12">
-		<img class="bm_img" src="/img/post-bg-2015.jpg" alt="">
+		<img src="/img/painting/woyehenwunai.png" alt=" ">
 	</div>
-</div> -->
+</div>
 
 ### before
 <div id="masonry">

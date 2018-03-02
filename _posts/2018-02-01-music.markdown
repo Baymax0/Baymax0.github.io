@@ -17,13 +17,16 @@ tags:
 > 
 成功在网易云上申请了一个电台，美其名曰：我也是个主播了，哈哈哈。<br>
 
+基本都是在心烦的时候练歌，能抒发一些情绪，感觉哼的都是自己<br>
+感觉录的还凑合就输出一个音频自己听听，累计一点成就感，有点自卑的人活着真是累<br>
+不定期更新
 
 <div>
 	<span style="font-size: 18px;  font-weight:bold;">工序：</span><br>
 	<span>
 	+ solo（可有可无）<br>
 	+ 弹|唱 <br>
-	+ 电脑拖拽合成-修修修 =>输出 <br>
+	+ 电脑拖拽合成 - 修修修 =>输出 <br>
 	</span>
 </div>
 
@@ -33,9 +36,22 @@ tags:
 	+ 弦又生锈了的吉他<br>
 	+ 琴码快飞了的尤克里里<br>
 	+ 吹不出压音的blues口琴<br>
-	+ GarageBand（音频合成工具）<br>
-	+ 能听出自己唱跑掉 但 无能为力的我🙄<br>
+	+ GarageBand<br>
+	+ 能听出自己唱跑掉 但 无能为力的我🙄(本着唱多了应该就会变好的幻想)<br>
 	</span>
+</div>
+
+---
+<div>
+	<span style="font-size: 24px;  font-weight:bold;">思念是一种病</span>
+	<span>--2018.03.01(吉他&amp;口琴)（几天录了好几个伴奏的版本）（虽然还是唱的不好，自我感觉好像进步了一丢丢）</span><br>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1368219454&amp;auto=0&amp;height=66">
+	</iframe>
+	<br>
+	一辈子有多少的来不及<br>
+	发现 已经 失去<br>
+	最重要的东西<br>
+	恍然大悟 早已远去<br>
 </div>
 
 ---

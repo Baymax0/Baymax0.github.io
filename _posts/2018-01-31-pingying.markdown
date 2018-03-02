@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "iOS通讯录拼音分组排序"
-subtitle:   " \"面向接口的排序\""
+subtitle:   " \"面向model的排序\""
 date:       2018-01-31 09:44:00
 author:     "Leezw"
 header-img: "img/post-bg-2015.jpg"
