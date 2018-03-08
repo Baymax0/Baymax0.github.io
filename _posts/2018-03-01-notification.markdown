@@ -104,7 +104,7 @@ NotificationServiceExtension.m文件中，我们可以 #import "myUtils.h"  但�
 Appgroup功能还需要在开发账号上进行配置，并不是直接使用的[关于AppGroup的使用](http://blog.csdn.net/shengpeng3344/article/details/52190997)
 
 #####  **审核权限问题**
-如果仅仅是实现语音播报的功能，在项目target -> Capabilities -> Background Modes中，不要勾选“Audio,AirPlay,and Picture in Picture”,否则会导致审核不通过。
+如果仅仅是实现语音播报的功能，在项目target -> Capabilities -> Background Modes中，不要勾选“Audio,AirPlay,and Picture in Picture”,不需要,否则会导致审核不通过。
 
 ---
 
