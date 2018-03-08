@@ -17,16 +17,17 @@ tags:
 > 
 成功在网易云上申请了一个电台，美其名曰：我也是个主播了，哈哈哈。<br>
 
-基本都是在心烦的时候练歌，能抒发一些情绪，感觉哼的都是自己<br>
-感觉录的还凑合就输出一个音频自己听听，累计一点成就感，有点自卑的人活着真是累<br>
-不定期更新
+基本都是在心烦的时候练歌，能抒发一些情绪。<br>
+基本感觉录的还凑合就输出一个音频自己听听，<br>
+累计一点成就感，有点自卑的人活着真是累<br>
+不定期更新...
 
 <div>
 	<span style="font-size: 18px;  font-weight:bold;">工序：</span><br>
 	<span>
 	+ solo（可有可无）<br>
 	+ 弹|唱 <br>
-	+ 电脑拖拽合成 - 修修修 =>输出 <br>
+	+ 电脑拖拽合成（修修修） =>输出 <br>
 	</span>
 </div>
 
@@ -37,8 +38,16 @@ tags:
 	+ 琴码快飞了的尤克里里<br>
 	+ 吹不出压音的blues口琴<br>
 	+ GarageBand<br>
-	+ 能听出自己唱跑掉 但 无能为力的我🙄(本着唱多了应该就会变好的幻想)<br>
+	+ 能听出自己唱跑掉 但 无能为力的我 who cares🙄(本着唱多了应该就会变好的幻想)<br>
 	</span>
+</div>
+
+---
+<div>
+	<span style="font-size: 24px;  font-weight:bold;">初春</span>
+	<span>--2018.03.07(尤克里里)</span><br>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1368297836&amp;auto=0&amp;height=66">
+	</iframe>
 </div>
 
 ---
