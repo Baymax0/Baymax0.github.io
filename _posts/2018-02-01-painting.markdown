@@ -2,7 +2,7 @@
 layout:     post
 title:      "我的 乱涂乱画 ✐"
 subtitle:   "会画画的程序员 找到软妹子做老婆的能力 是不会画画的20.74倍以上--我家隔壁的胖大婶"
-date:       2018-02-22 14:29:00
+date:       2018-05-10 10:29:00
 author:     "Leezw"
 header-img: "img/painting-bg.jpg"
 tags:
@@ -61,7 +61,7 @@ tags:
 <script src="/js/zoomify.min.js"></script>
 
 ### balabala
-图都是从空间里淘回来的，一摆发现真的好久没认真画画东西了.... 
+16年以前的图都是从空间里找回来的，一摆发现真的好久没认真画画东西了.... 
 
 ### 最近
 
@@ -73,6 +73,23 @@ tags:
 
 ### before
 <div id="masonry">
+	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
+		<div class="bm_box">
+			<div>
+				<img style="margin:0px 0px 0px 0px;" src="/img/painting/2018/2018.png">
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2018/house.png">
+			<div class="">
+				<p class="bm_img_desc">纪念碑谷(第一次用ps画图😆)</p>
+				<p class="bm_img_time">💭 2018-5-10</p>
+			</div>
+		</div>
+	</div>
+
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<div>
