@@ -55,7 +55,8 @@ tags:
 
 <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 <script src="/js/jquery.min.js"></script>
-<script src="http://jq22.qiniudn.com/masonry-docs.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
 
 <link rel="stylesheet" href="/css/zoomify.min.css">
 <script src="/js/zoomify.min.js"></script>
@@ -82,6 +83,69 @@ tags:
 	</div>
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
+			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2018/WechatIMG62.jpeg">
+			<div class="">
+				<p class="bm_img_desc">水彩练习</p>
+				<p class="bm_img_time">💭 2018-某月-某日</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2018/WechatIMG65.jpeg">
+			<div class="">
+				<p class="bm_img_desc">画了好几个月的半彩壁画</p>
+				<p class="bm_img_time">💭 2018-某月-某日</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2018/WechatIMG63.jpeg">
+			<div class="">
+				<p class="bm_img_desc">水彩练习</p>
+				<p class="bm_img_time">💭 2018-某月-某日</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2018/WechatIMG64.jpeg">
+			<div class="">
+				<p class="bm_img_desc">水彩练习</p>
+				<p class="bm_img_time">💭 2018-某月-某日</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2018/WechatIMG66.jpeg">
+			<div class="">
+				<p class="bm_img_desc">水彩练习</p>
+				<p class="bm_img_time">💭 2018-某月-某日</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2018/WechatIMG67.jpeg">
+			<div class="">
+				<p class="bm_img_desc">魔兽 小Y</p>
+				<p class="bm_img_time">💭 2018-某月-某日</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
+		<div class="bm_box">
+			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2018/WechatIMG68.jpeg">
+			<div class="">
+				<p class="bm_img_desc">水彩练习</p>
+				<p class="bm_img_time">💭 2018-某月-某日</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
+		<div class="bm_box">
 			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2018/house.png">
 			<div class="">
 				<p class="bm_img_desc">纪念碑谷(第一次用ps画图😆)</p>
@@ -89,7 +153,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<div>
@@ -97,7 +160,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2014/*-*-haizei.JPG">
@@ -107,8 +169,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2014/2-16-xingshi.jpeg">
@@ -118,8 +178,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2014/2-16-shidizai.jpeg">
@@ -138,7 +196,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<div>
@@ -146,7 +203,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2013/1-21-wolverine.jpeg">
@@ -228,7 +284,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<div>
@@ -236,7 +291,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2012/11-29-haibao.jpeg">
@@ -318,7 +372,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<div>
@@ -326,7 +379,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2011/7-25-daodao.jpeg">
@@ -390,7 +442,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<div>
@@ -398,7 +449,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-6 col-md-4 col-sm-4 bm_outBox">
 		<div class="bm_box">
 			<img class="bm_img" style="margin:0px 0px 0px 0px;" src="/img/painting/2010/10-7-xiawu.jpeg">
@@ -435,7 +485,6 @@ tags:
 			</div>
 		</div>
 	</div>
-
 </div>
 
 

@@ -22,24 +22,30 @@ tags:
 累计一点成就感，有点自卑的人活着真是累<br>
 不定期更新...
 
+
+---
 <div>
-	<span style="font-size: 18px;  font-weight:bold;">工序：</span><br>
-	<span>
-	+ solo（可有可无）<br>
-	+ 弹|唱 <br>
-	+ 电脑拖拽合成（修修修） =>输出 <br>
-	</span>
+	<span style="font-size: 24px;  font-weight:bold;">月亮代表我的心</span>
+	<span>--2018.11.27(钢琴) 大概学了10节课吧 记录下～ </span><br>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=2058026140&amp;auto=0&amp;height=66">
+	</iframe>
 </div>
 
+---
 <div>
-	<span style="font-size: 18px;  font-weight:bold;">用到了：</span><br>
-	<span>
-	+ 弦又生锈了的吉他<br>
-	+ 琴码快飞了的尤克里里<br>
-	+ 吹不出压音的blues口琴<br>
-	+ GarageBand<br>
-	+ 能听出自己唱跑掉 但 无能为力的我 who cares🙄(本着唱多了应该就会变好的幻想)<br>
-	</span>
+	<span style="font-size: 24px;  font-weight:bold;">おどるポンポコリン</span>
+	<span>--2018-10-18(尤克里里)</span><br>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=2057353761&amp;auto=0&amp;height=66">
+	</iframe>
+</div>
+
+
+---
+<div>
+	<span style="font-size: 24px;  font-weight:bold;">Aloha heja He</span>
+	<span>--2018-08-17(尤克里里)</span><br>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1370697518&amp;auto=0&amp;height=66">
+	</iframe>
 </div>
 
 ---
@@ -49,6 +55,8 @@ tags:
 	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1368297836&amp;auto=0&amp;height=66">
 	</iframe>
 </div>
+
+
 
 ---
 <div>
@@ -80,20 +88,10 @@ tags:
 	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1368180666&amp;auto=0&amp;height=66">
 	</iframe>
 	<br>
-	<span>明天情人节(过节)  </span><span>  是否都有约(有约)</span><br>
-	<span>有没有漂亮姐姐  </span><span>  陪我溜大街(刘大姐)</span><br>
-	<span>明天情人节(过节)  </span><span>  好想吃番茄(🍅)</span><br>
-	<span>私聊说声一起过节  </span><span>  对你说谢谢(谢谢)</span><br>
-</div>
-
----
-<div>
-	<span style="font-size: 24px;  font-weight:bold;">我在十点差三分的时候想</span>
-	<span>--2018.02.12(吉他)</span><br>
-	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=1368185479&amp;auto=0&amp;height=66">
-	</iframe>
-	<br>
-	<span>21:57</span><br>
+	<span>明天情人节  </span><span>  是否都有约</span><br>
+	<span>有没有漂亮姐姐  </span><span>  陪我溜大街</span><br>
+	<span>明天情人节  </span><span>  好想吃番茄</span><br>
+	<span>私聊说声一起过节  </span><span>  对你说谢谢</span><br>
 </div>
 
 ---
