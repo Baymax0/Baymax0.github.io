@@ -62,7 +62,7 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "如果活不成一颗钻石<br> 就活成一粒煤吧～"
+sidebar-about-description: "如果活不成一颗钻石<br> <br> 就活成一粒煤吧～"
 sidebar-avatar: /img/avatar-li.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -95,5 +95,6 @@ friends: [
         href: "http://www.tanhao.me"
     }
 ]
+
 
 
