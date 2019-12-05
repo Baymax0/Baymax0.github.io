@@ -8,7 +8,6 @@ header-img: "img/painting-bg.jpg"
 tags:
 - 生活
 ---
-
 <style type="text/css">
 	body{
 		background-color: #EFEFEF;
