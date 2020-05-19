@@ -1,0 +1,93 @@
+I"�<blockquote>
+
+  <p>换了新笔记本，发现得从新配置jeklly环境。
+发现搜到的文章没有能一步到位的，还是自己记录一篇。
+所以步骤从0开始记录一下，可以实时本地编译，不用频繁上传github</p>
+</blockquote>
+
+<h5 id="安装-ruby-version-manager-rvm"><strong>安装 Ruby Version Manager (RVM)</strong></h5>
+<p>(可选操作，如果需要升级ruby，需要此步骤)  <br />
+命令粘贴至终端</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+</code></pre></div></div>
+
+<p>如果报错：Failed to connect to raw.githubusercontent.com port 443: Operation timed out</p>
+
+<p>先去 https://githubusercontent.com.ipaddress.com/raw.githubusercontent.com 这个链接获取raw.githubusercontent.com的ip地址
+然后修改host文件（路径：/etc/） 添加：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>IP地址 raw.githubusercontent.com
+</code></pre></div></div>
+
+<p>然后再执行安装命令</p>
+
+<h5 id="安装ruby环境"><strong>安装Ruby环境</strong></h5>
+<p>mac自带ruby，windows则下载 <a href="https://rubyinstaller.org/"> rubyinstaller</a> 并运行，安装后再命令行输入</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby -- version
+ruby - v
+</code></pre></div></div>
+
+<p>查看是否安装成功，如果无法查看需重启或手动添加bin目录到环境变量</p>
+
+<h5 id="安装gem"><strong>安装Gem</strong></h5>
+<p>Gem是Ruby第三方插件管理器，官网安装教程：<a href="https://rubygems.org/pages/download">https://rubygems.org/pages/download</a> <br />
+下载Gem到本地后，在终端输入如下代码</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 检查gem版本
+gem -v
+## 更新Gem(提示权限)
+gem update --system
+</code></pre></div></div>
+
+<p>gem update –system。这一步需要翻墙，否则会出现404错误。解决办法参考：<a href="https://ruby.taobao.org/">https://ruby.taobao.org/</a></p>
+
+<h5 id="安装jekyll"><strong>安装Jekyll</strong></h5>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 安装jekyll(提示权限)
+gem install jekyll
+## 安装成功之后，查看版本号
+jekyll -v
+</code></pre></div></div>
+
+<p>出现Gem::RemoteFetcher::FetchError) 则可能需要代理服务器 在本地仓库下使用touch Gemfile创建一个Gemfile,添加文本<code class="highlighter-rouge"> </code><code class="highlighter-rouge">source 'https://rubygems.org' gem 'github-pages'</code><code class="highlighter-rouge"> </code></p>
+
+<h5 id="使用jekyll"><strong>使用Jekyll</strong></h5>
+<p>打开终端，先cd到本地的 **.github.io 文件目录下，然后执行以下命令，开启服务器并实时编译（control+c 关闭）</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll serve -w
+</code></pre></div></div>
+
+<p>服务器启动后会,默认将项目自动编译在_site文件夹下，使用git提交的时候记得在项目文件中添加.gitignore 文件,并添加“_site/”</p>
+
+<h5 id="使用浏览器浏览"><strong>使用浏览器浏览</strong></h5>
+<p>在浏览器中输入 http://localhost:4000 即可访问博客站点<br />
+不能访问请检查_config.yml配置文件是否需要修改</p>
+
+<h5 id="坑"><strong>坑</strong></h5>
+<p>较老版本使用 jekyll –server
+执行 jekyll build 命令报错</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ERROR: YOUR SITE COULD NOT BE BUILT:
+   Missing dependency: rdiscount
+</code></pre></div></div>
+
+<p>解决：rdiscount是 Jekyll依赖的一个包，可以通过安装这个包来解决。<br />
+安装rdiscount</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install rdiscount
+</code></pre></div></div>
+
+<p>如果缺少其他包，同理使用 gem install 解决</p>
+
+<p>安装各种依赖包的时候可能会提示权限不足，比如安装rdiscount提示我/usr/bin没有写入权限
+解决：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo chmod -R 777
+</code></pre></div></div>
+
+<p>安装完毕后将/usr/bin权限设置回操作前的权限。否则下次终端启动时可能报错。</p>
+
+<hr />
+
+:ET

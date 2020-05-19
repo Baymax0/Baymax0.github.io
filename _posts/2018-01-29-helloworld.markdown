@@ -6,7 +6,7 @@ date:       2018-01-29 12:00:00
 author:     "Leezw"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - 生活
+- 生活
 ---
 
 > First Blog

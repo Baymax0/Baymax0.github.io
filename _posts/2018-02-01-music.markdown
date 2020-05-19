@@ -6,7 +6,7 @@ date:       2018-11-27 14:29:00
 author:     "Leezw"
 header-img: "img/music-bg.jpg"
 tags:
-- 生活
+- 音乐
 ---
 
 <!-- 
@@ -16,6 +16,26 @@ tags:
 
 > 
 成功在网易云上申请了一个电台，美其名曰：我也是个主播了，哈哈哈。<br>
+  
+##### 写在最前面的一些话
+
+感觉对所有喜欢的艺术都有特别的感情    
+区别于走马观花似得浏览，    
+初始印象好的电影或者音乐，都会去了解下作者，创作背景，历史    
+才能更好的欣赏喜欢的东西吧    
+
+可能这也是为什么    
+当我们本着最单纯的想法 --- 分享自认为美好的东西时    
+很少能得到别人的共鸣。
+
+因为对于这件东西，我们付出的了解不在一个层面
+
+对于他人分享后，只潦草看上一两眼的东西    
+除非是一见钟情，不然可能大多数都是附和的回应    
+
+所以不要悲伤于自己喜欢的东西得不到共鸣    
+宝藏有时候还是要靠所有人自己发现的    
+
 
 所有曲子都是自弹自唱<br>
 基本感觉录的还凑合就输出一个音频自己听听，<br>
@@ -23,8 +43,24 @@ tags:
 不定期更新...
 
 
----
+##### 手忙脚乱的指弹 & 纯音乐
+> 
+有吉他、尤克里里、钢琴、口琴，都没超过业余二级的水平🤷‍♂️
+
 <div>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=4&id=794542620&auto=1&height=430"></iframe>
+</div>
+
+
+##### 某某的自弹自唱~
+也不知道自己的唱歌水平到底是在进步还是退步
+
+<div>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=4&id=526667895&auto=1&height=430"></iframe>
+</div>
+
+
+<!-- <div>
 	<span style="font-size: 24px;  font-weight:bold;">月亮代表我的心</span>
 	<span>--2018.11.27(钢琴) 大概学了10节课吧 记录下～ </span><br>
 	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&amp;id=2058026140&amp;auto=0&amp;height=66">
@@ -102,4 +138,4 @@ tags:
 	</iframe><br>
 	<span>感觉前奏还弹的好好的，我一张嘴，整段垮掉，(╯‵□′)╯︵┻━┻</span><br>
 </div>
-
+ -->

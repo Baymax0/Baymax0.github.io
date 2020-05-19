@@ -4,7 +4,7 @@ SEOTitle: Leezw Blog
 header-img: img/home-bg.jpg
 email: jzdd327@163.com
 description: "be a better man"
-keyword: "李志伟, leezw, leezw Blog, Baymax0, iOS, 李志伟的博客, 李志伟的个人网站,"
+keyword: "leezw, leezw Blog, Baymax0"
 url: "https://baymax0.github.io"              # your host, for absolute URL
 # baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -62,38 +62,38 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "如果活不成一颗钻石<br> <br> 就活成一粒煤吧～"
+sidebar-about-description: "如果活不成一颗钻石<br>就活成一粒煤吧～"
 sidebar-avatar: /img/avatar-li.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # 使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐
-
+featured-condition-size: 0              # 使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐
 
 
 # Friends 外链
 friends: [
     {
-        title: "Hux Blog",
+        title: "AaaaaChi",
         href: "http://huangxuan.me/"
-    },{
-        title: "onevcat王巍",
-        href: "https://onevcat.com/"
-    },{
-        title: "xcodev‘blog",
-        href: "http://blog.xcodev.com/"
-    },{
-        title: "唐巧的博客",
-        href: "http://blog.devtang.com/"
-    },{
-        title: "ibireme",
-        href: "https://blog.ibireme.com"
-    },{
-        title: "谭灏的博客",
-        href: "http://www.tanhao.me"
     }
+    # ,{
+    #     title: "onevcat王巍",
+    #     href: "https://onevcat.com/"
+    # },{
+    #     title: "xcodev‘blog",
+    #     href: "http://blog.xcodev.com/"
+    # },{
+    #     title: "唐巧的博客",
+    #     href: "http://blog.devtang.com/"
+    # },{
+    #     title: "ibireme",
+    #     href: "https://blog.ibireme.com"
+    # },{
+    #     title: "谭灏的博客",
+    #     href: "http://www.tanhao.me"
+    # }
 ]
 
 
