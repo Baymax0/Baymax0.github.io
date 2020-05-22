@@ -4,7 +4,7 @@ title:      "jeklly本地服务器搭建及使用"
 subtitle:   "方便日后换电脑配置博客环境"
 date:       2018-02-22 14:29:00
 author:     "Leezw"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-2018.png"
 tags:
 - 技术
 ---

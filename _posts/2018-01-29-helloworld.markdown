@@ -4,7 +4,7 @@ title:      "My own website is on"
 subtitle:   "我的网址更新日志"
 date:       2018-01-29 12:00:00
 author:     "Leezw"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-2018.png"
 tags:
 - 生活
 ---
