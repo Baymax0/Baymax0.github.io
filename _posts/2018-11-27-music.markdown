@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "我的 跑调专辑 ♬"
-subtitle:   "会吉他的程序员 找到软妹子做老婆的能力 是不会吉他的20.73倍以上--我家楼上的长胡子大爷"
+subtitle:   "会吉他的程序员 找到软妹子做对象的能力 是不会吉他的20.73倍以上--我家楼上的长胡子大爷"
 date:       2018-11-27 14:29:00
 author:     "Leezw"
 header-img: "img/music-bg.jpg"
