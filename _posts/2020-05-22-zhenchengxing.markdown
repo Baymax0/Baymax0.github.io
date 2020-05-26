@@ -4,7 +4,7 @@ title:      "关于互联网上内容的真诚性"
 subtitle:   "对漂亮话的敏感和反思应该是对互联网言论的基本思辨素质"
 date:       2020-05-21 12:00:00
 author:     "Leezw"
-header-img: "img/love-bg.png"
+header-img: "img/post-bg-13.jpg"
 tags:
 - 碎碎念
 ---
