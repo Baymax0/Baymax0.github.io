@@ -81,6 +81,7 @@ tags:
 
 ### balabala
 16年以前的图是的qq空间里挖掘回来的....页面用的瀑布流在加载完图片之前好像样式有点问题 
+也不是所有的画 贴了部分
 
 ### 最近
 <!-- 
@@ -90,15 +91,74 @@ tags:
 	</div>
 </div> -->
 
-### before
+### 2020
 
 <div class="waterfall">
 	<div class="item">
 		<div class="bm_box">
+			<img  src="/img/blank.gif"  data-src="/img/painting/2020/AD31C0ABEFE4F67C0774F5C07CC4FA8B.png">
+			<div class="">
+				<p class="bm_img_desc">cute girl</p>
+				<p class="bm_img_time">2020</p>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="bm_box">
+			<img  src="/img/blank.gif"  data-src="/img/painting/2020/8C96B5EAB333FB488B003BF88D787BF6.png">
+			<div class="">
+				<p class="bm_img_desc">东京店铺系列-</p>
+				<p class="bm_img_time">2020</p>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="bm_box">
+			<img  src="/img/blank.gif"  data-src="/img/painting/2020/AA6B6C635E3A0EA084FB8103212E49FA.png">
+			<div class="">
+				<p class="bm_img_desc">“浮世绘”?</p>
+				<p class="bm_img_time">2020</p>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="bm_box">
+			<img  src="/img/blank.gif"  data-src="/img/painting/2020/EFF72B10D2A1372F390DE97DCC43E71B.png">
+			<div class="">
+				<p class="bm_img_desc">cute girl 针管笔不适合画这个</p>
+				<p class="bm_img_time">2020</p>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="bm_box">
+			<img  src="/img/blank.gif"  data-src="/img/painting/2020/8BAB87D5A4C196C4B3B9AD3D6EAFF243.png">
+			<div class="">
+				<p class="bm_img_desc">通行百万</p>
+				<p class="bm_img_time">2020</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+### 2019
+
+<div class="waterfall">
+	<div class="item">
+		<div class="bm_box">
+			<img  src="/img/blank.gif"  data-src="/img/painting/2019/WechatIMG103.jpeg">
+			<div class="">
+				<p class="bm_img_desc">纪念2019最后一个周末</p>
+				<p class="bm_img_time">2019</p>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="bm_box">
 			<img  src="/img/blank.gif"  data-src="/img/painting/2019/WechatIMG353.jpeg">
 			<div class="">
-				<p class="bm_img_desc">针管笔画</p>
-				<p class="bm_img_time"> </p>
+				<p class="bm_img_desc">企鹅</p>
+				<p class="bm_img_time">2019</p>
 			</div>
 		</div>
 	</div>
@@ -109,7 +169,7 @@ tags:
 			</div>
 			<div class="">
 				<p class="bm_img_desc">针管笔画</p>
-				<p class="bm_img_time"> </p>
+				<p class="bm_img_time">2019</p>
 			</div>
 		</div>
 	</div>
@@ -120,7 +180,7 @@ tags:
 			</div>
 			<div class="">
 				<p class="bm_img_desc">ipad</p>
-				<p class="bm_img_time"></p>
+				<p class="bm_img_time">2019</p>
 			</div>
 		</div>
 	</div>
@@ -131,7 +191,7 @@ tags:
 			</div>
 			<div class="">
 				<p class="bm_img_desc">ipad</p>
-				<p class="bm_img_time"></p>
+				<p class="bm_img_time">2019</p>
 			</div>
 		</div>
 	</div>
@@ -142,17 +202,15 @@ tags:
 			</div>
 			<div class="">
 				<p class="bm_img_desc">ipad</p>
-				<p class="bm_img_time"></p>
+				<p class="bm_img_time">2019</p>
 			</div>
 		</div>
 	</div>
-	<div class="item">
-		<div class="bm_box">
-			<div>
-				<img style="margin:0px 0px 0px 0px;" src="/img/blank.gif"  data-src="/img/painting/2018/2018.png">
-			</div>
-		</div>
-	</div>
+</div>
+
+### 2018
+
+<div class="waterfall">
 	<div class="item">
 		<div class="bm_box">
 			<img   src="/img/blank.gif"  data-src="/img/painting/2018/WechatIMG62.jpeg">
@@ -225,19 +283,18 @@ tags:
 			</div>
 		</div>
 	</div>
+
+</div>
+
+### 2014
+
+<div class="waterfall">
 	<div class="item">
 		<div class="bm_box">
-			<div>
-				<img style="margin:0px 0px 0px 0px;" src="/img/blank.gif"  data-src="/img/painting/2014/2014.png">
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="bm_box">
-			<img   src="/img/blank.gif"  data-src="/img/painting/2014/*-*-haizei.JPG">
+			<img   src="/img/blank.gif"  data-src="/img/painting/2014/6-7-lishanweilai.jpeg">
 			<div class="">
-				<p class="bm_img_desc">海贼全家福.好像少了个人- -</p>
-				<p class="bm_img_time">💭 2014-*-*</p>
+				<p class="bm_img_desc">栗山未来</p>
+				<p class="bm_img_time">💭 2014-6-7</p>
 			</div>
 		</div>
 	</div>
@@ -261,20 +318,18 @@ tags:
 	</div>
 	<div class="item">
 		<div class="bm_box">
-			<img   src="/img/blank.gif"  data-src="/img/painting/2014/6-7-lishanweilai.jpeg">
+			<img   src="/img/blank.gif"  data-src="/img/painting/2014/*-*-haizei.JPG">
 			<div class="">
-				<p class="bm_img_desc">栗山未来</p>
-				<p class="bm_img_time">💭 2014-6-7</p>
+				<p class="bm_img_desc">海贼全家福.好像少了个人- -</p>
+				<p class="bm_img_time">💭 2014-*-*</p>
 			</div>
 		</div>
 	</div>
-	<div class="item">
-		<div class="bm_box">
-			<div>
-				<img style="margin:0px 0px 0px 0px;" src="/img/blank.gif"  data-src="/img/painting/2013/2013.png">
-			</div>
-		</div>
-	</div>
+</div>
+
+### 2013
+
+<div class="waterfall">
 	<div class="item">
 		<div class="bm_box">
 			<img   src="/img/blank.gif"  data-src="/img/painting/2013/1-21-wolverine.jpeg">
@@ -356,13 +411,11 @@ tags:
 			</div>
 		</div>
 	</div>
-	<div class="item">
-		<div class="bm_box">
-			<div>
-				<img style="margin:0px 0px 0px 0px;" src="/img/blank.gif"  data-src="/img/painting/2012/2012.png">
-			</div>
-		</div>
-	</div>
+</div>
+
+### 2012
+
+<div class="waterfall">
 	<div class="item">
 		<div class="bm_box">
 			<img   src="/img/blank.gif"  data-src="/img/painting/2012/11-29-haibao.jpeg">
@@ -444,13 +497,11 @@ tags:
 			</div>
 		</div>
 	</div>
-	<div class="item">
-		<div class="bm_box">
-			<div>
-				<img style="margin:0px 0px 0px 0px;" src="/img/blank.gif"  data-src="/img/painting/2011/2011.png">
-			</div>
-		</div>
-	</div>
+</div>
+
+### 2011
+
+<div class="waterfall">
 	<div class="item">
 		<div class="bm_box">
 			<img   src="/img/blank.gif"  data-src="/img/painting/2011/7-25-daodao.jpeg">
@@ -514,13 +565,11 @@ tags:
 			</div>
 		</div>
 	</div>
-	<div class="item">
-		<div class="bm_box">
-			<div>
-				<img style="margin:0px 0px 0px 0px;" src="/img/blank.gif"  data-src="/img/painting/2010/2010.png">
-			</div>
-		</div>
-	</div>
+</div>
+
+### 2010
+
+<div class="waterfall">
 	<div class="item">
 		<div class="bm_box">
 			<img   src="/img/blank.gif"  data-src="/img/painting/2010/10-7-xiawu.jpeg">
