@@ -6,8 +6,8 @@ date:       2020-05-10 19:00:00
 author:     "Leezw"
 header-img: "img/painting-bg.jpg"
 tags:
-- 碎碎念
 - 生活
+- 碎碎念
 ---
 
 虽然关注按钮点了很久 但最近才想到    

@@ -1,13 +1,13 @@
 ---
 layout:     post 
-title:      "最爱听同事们的恋爱八卦了"
+title:      "爱听同事们的恋爱八卦"
 subtitle:   "日常碎碎念"
 date:       2020-12-01 12:00:00
 author:     "Leezw"
 header-img: "img/suisuinian/2020-97.jpeg"
 tags:
-- 碎碎念
 - 生活
+- 电影&书籍
 ---
 
 碰巧最近同事聊起她对象Y的事      
