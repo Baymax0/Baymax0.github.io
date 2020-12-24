@@ -7,6 +7,7 @@ author:     "Leezw"
 header-img: "img/painting-bg.jpg"
 tags:
 - 碎碎念
+- 生活
 ---
 
 虽然关注按钮点了很久 但最近才想到    

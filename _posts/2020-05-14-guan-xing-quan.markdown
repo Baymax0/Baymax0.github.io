@@ -7,6 +7,7 @@ author:     "Leezw"
 header-style: text
 tags:
 - 碎碎念
+- 生活
 ---
 
 >     
