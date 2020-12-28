@@ -2,7 +2,7 @@
 layout:     post 
 title:      "同事们的恋爱八卦"
 subtitle:   "日常碎碎念"
-date:       2020-12=10 12:00:00
+date:       2020-12-10 12:00:00
 author:     "Leezw"
 header-img: "img/suisuinian/2020-97.jpeg"
 tags:
