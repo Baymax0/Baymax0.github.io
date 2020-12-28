@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "关于佛系与求理"
-subtitle:   "日常碎碎念"
+subtitle:   "圆桌派 第三季 第5期《佛系 你真的无所谓吗》"
 date:       2020-08-12 12:00:00
 author:     "Leezw"
 header-img: "img/post-bg-13.jpg"
@@ -10,8 +10,6 @@ tags:
 - 电影&书籍
 ---
 
->   
-圆桌派 第三季 第5期《佛系 你真的无所谓吗》
 
 有些事 可敬不可学     
 人生欲 满足程度     
