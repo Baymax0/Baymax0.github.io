@@ -3,7 +3,7 @@ title: Leezw Blog
 SEOTitle: Leezw Blog
 header-img: img/home-bg.jpg
 email: jzdd327@163.com
-description: "一个想成为黑客、画家、音乐家、设计师的菜鸟的博客"
+description: "一个想成为黑客、画家、音乐家、设计师的酸菜鱼的博客"
 keyword: "leezw,leezw Blog,Baymax0,leezw327,李志伟,lzw"
 url: "https://baymax0.github.io"              # your host, for absolute URL
 # baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
@@ -79,10 +79,10 @@ page-mathjax: false
 
 # Friends 外链
 friends: [
-    {
-        title: "AaaaaChi",
-        href: "http://huangxuan.me/"
-    }
+    # {
+    #     title: "AaaaaChi",
+    #     href: "http://huangxuan.me/"
+    # }
     # ,{
     #     title: "onevcat王巍",
     #     href: "https://onevcat.com/"
