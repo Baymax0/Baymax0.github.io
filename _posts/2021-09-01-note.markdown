@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "临街的窗"
+subtitle:   "卡夫卡"
+date:       2021-09-01 12:00:00
+author:     "Leezw"
+header-img: "img/post-bg-9.jpg"
+tags:
+- 日常
+---
+
+#### 09-22     
+生活就是一半诗意一半烟火，    
+我们手持诗意以谋生，心怀诗意以谋爱。    
+
+
+
